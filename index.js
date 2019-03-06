@@ -1,7 +1,8 @@
-const { json, send } = require('micro') 
+const { send } = require('micro') 
+const { User } = require('./models/user_schema')
 
 module.exports = async (req, res) => {
-  const js = await json(req)
+  const users = await User.query()
 
-  send(res, 200, js)
-} 
+  send(res, 200, users)
+}
