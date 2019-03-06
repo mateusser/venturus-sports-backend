@@ -1,0 +1,27 @@
+{
+  "name": "venturus-sports-backend",
+  "version": "1.0.0",
+  "description": "Backend for Venturus Sports",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "dev": "micro-dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateusser/venturus-sports-backend.git"
+  },
+  "author": "mateusser",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mateusser/venturus-sports-backend/issues"
+  },
+  "homepage": "https://github.com/mateusser/venturus-sports-backend#readme",
+  "dependencies": {
+    "micro": "^9.3.3"
+  },
+  "devDependencies": {
+    "micro-dev": "^3.0.0"
+  }
+}
