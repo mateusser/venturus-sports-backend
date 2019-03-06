@@ -1,4 +1,4 @@
-const { buffer, json, text, send } = require('micro')
+const { json, send } = require('micro') 
 
 module.exports = async (req, res) => {
   const js = await json(req)
