@@ -14,6 +14,7 @@ exports.up = function(knex, Promise) {
       table.boolean('thu')
       table.boolean('fri')
       table.boolean('sat')
+      table.boolean('isActive')
       table.unique(['username', 'email'])
     })
   ])

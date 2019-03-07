@@ -17,7 +17,7 @@ class User extends Model {
   static get jsonSchema () {
     return {
       type: 'object',
-      required: ['firstName', 'lastName'],
+      required: ['username', 'name', 'email', 'ridegroup'],
 
       properties: {
         id: {type: 'integer'},
@@ -32,7 +32,8 @@ class User extends Model {
         wed: {type: 'boolean'},
         thu: {type: 'boolean'},
         fri: {type: 'boolean'},
-        sat: {type: 'boolean'}
+        sat: {type: 'boolean'},
+        isActive: {type: 'boolean'}
       }
     };
   }
