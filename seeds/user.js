@@ -17,7 +17,8 @@ exports.seed = function(knex, Promise) {
           wed: true,
           thu: true,
           fri: true,
-          sat: true
+          sat: true,
+          isActive: true
         },
         {
           name: "Ervin Howell",
@@ -31,7 +32,8 @@ exports.seed = function(knex, Promise) {
           wed: false,
           thu: false,
           fri: false,
-          sat: false
+          sat: false,
+          isActive: true
         },
         {
           name: "Clementine Bauch",
@@ -45,7 +47,8 @@ exports.seed = function(knex, Promise) {
           wed: false,
           thu: false,
           fri: false,
-          sat: true
+          sat: true,
+          isActive: true
         },
         {
           name: "Patricia Lebsack",
@@ -59,7 +62,8 @@ exports.seed = function(knex, Promise) {
           wed: true,
           thu: true,
           fri: true,
-          sat: false
+          sat: false,
+          isActive: true
         },
         {
           name: "Chelsey Dietrich",
@@ -73,7 +77,8 @@ exports.seed = function(knex, Promise) {
           wed: true,
           thu: false,
           fri: true,
-          sat: false
+          sat: false,
+          isActive: true
         },
         {
           name: "Mrs. Dennis Schulist",
@@ -87,7 +92,8 @@ exports.seed = function(knex, Promise) {
           wed: false,
           thu: true,
           fri: false,
-          sat: true
+          sat: true,
+          isActive: true
         },
         {
           name: "Kurtis Weissnat",
@@ -101,7 +107,8 @@ exports.seed = function(knex, Promise) {
           wed: false,
           thu: false,
           fri: true,
-          sat: false
+          sat: false,
+          isActive: true
         },
         {
           name: "Nicholas Runolfsdottir V",
@@ -115,7 +122,8 @@ exports.seed = function(knex, Promise) {
           wed: false,
           thu: true,
           fri: false,
-          sat: false
+          sat: false,
+          isActive: true
         },
         {
           name: "Glenna Reichert",
@@ -129,7 +137,8 @@ exports.seed = function(knex, Promise) {
           wed: true,
           thu: false,
           fri: true,
-          sat: false
+          sat: false,
+          isActive: true
         },
         {
           name: "Clementina DuBuque",
@@ -143,7 +152,8 @@ exports.seed = function(knex, Promise) {
           wed: true,
           thu: false,
           fri: false,
-          sat: false
+          sat: false,
+          isActive: true
         }
       ]);
     });
